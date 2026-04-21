@@ -49,7 +49,7 @@
             "type": "command",
             "key": "│ OS Age ",
             "keyColor": "35",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); days=$(( (current - birth_install) / 86400 )); echo $days days"
+            "text": "birth=$(stat -c %Y /var/log/dnf.log 2>/dev/null || stat -c %Y /); now=$(date +%s); echo $(( (now - birth) / 86400 )) days"
         },
         {
             "type": "custom",
