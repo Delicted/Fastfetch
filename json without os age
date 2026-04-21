@@ -1,0 +1,98 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "builtin",
+    "source": "fedora",
+    "padding": {
+      "top": 2,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "┌────────────── Hardware ──────────────┐"
+    },
+    {
+      "type": "cpu",
+      "key": "│ CPU ",
+      "keyColor": "32"
+    },
+    {
+      "type": "gpu",
+      "key": "│ GPU ",
+      "keyColor": "32"
+    },
+    {
+      "type": "memory",
+      "key": "│ RAM ",
+      "keyColor": "32"
+    },
+    {
+      "type": "disk",
+      "key": "│ Disk ",
+      "keyColor": "32"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌────────────── Software ──────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "│ OS ",
+      "keyColor": "33"
+    },
+    {
+      "type": "kernel",
+      "key": "│ Kernel ",
+      "keyColor": "33"
+    },
+    {
+      "type": "packages",
+      "key": "│ PKGs ",
+      "keyColor": "33"
+    },
+    {
+      "type": "shell",
+      "key": "│ Shell ",
+      "keyColor": "33"
+    },
+    {
+      "type": "terminal",
+      "key": "│ Term ",
+      "keyColor": "33"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌─────────────── Uptime ───────────────┐"
+    },
+    {
+      "type": "uptime",
+      "key": "│ Uptime ",
+      "keyColor": "35"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "rect"
+    }
+  ]
+}
