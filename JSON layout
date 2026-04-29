@@ -32,6 +32,8 @@
         },
         { "type": "os", "key": "│ OS     ", "keyColor": "33" },
         { "type": "kernel", "key": "│ Kernel ", "keyColor": "33" },
+        { "type": "de", "key": "│ DE     ", "keyColor": "33" },
+        { "type": "wm", "key": "│ WM/Type", "keyColor": "33" }, 
         { "type": "packages", "key": "│ PKGs   ", "keyColor": "33" },
         { "type": "shell", "key": "│ Shell  ", "keyColor": "33" },
         { "type": "terminal", "key": "│ Term   ", "keyColor": "33" },
